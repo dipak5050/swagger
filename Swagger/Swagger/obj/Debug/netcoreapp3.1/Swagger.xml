@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Swagger</name>
+    </assembly>
+    <members>
+        <member name="M:Swagger.Controllers.EmployeeController.Get">
+             <summary>
+             Creates an Employee.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST /Employee
+                 {
+                   "firstName": "Test",
+                   "lastName": "Name",
+                   "emailId": "Test.Name@gmail.com"
+                 }
+             </remarks>
+             <param name="employee"></param>
+             <response code="201">Returns the newly created item</response>
+             <response code="400">If the item is null</response>
+        </member>
+        <member name="M:Swagger.Controllers.EmployeeController.Get(System.Int32)">
+             <summary>
+             Creates an Employee.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST /Employee
+                 {
+                   "firstName": "Test",
+                   "lastName": "Name",
+                   "emailId": "Test.Name@gmail.com"
+                 }
+             </remarks>
+             <param name="employee"></param>
+             <response code="201">Returns the newly created item</response>
+             <response code="400">If the item is null</response>
+        </member>
+        <member name="M:Swagger.Controllers.EmployeeController.Post(Swagger.Employe)">
+             <summary>
+             Creates an Employee.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST /Employee
+                 {
+                   "firstName": "Test",
+                   "lastName": "Name",
+                   "emailId": "Test.Name@gmail.com"
+                 }
+             </remarks>
+             <param name="employee"></param>
+             <response code="201">Returns the newly created item</response>
+             <response code="400">If the item is null</response>
+        </member>
+        <member name="M:Swagger.Controllers.WeatherForecastController.Get">
+            <summary>
+            dsgvnsdgvsdngsldkngsdlkgnsdlkgnsdlgsnldkglnkdsglknsdglknsdgnksddondfngoedng[koed[nogad[onigear
+            </summary>
+            <returns>A list of weather forecasts.</returns>
+        </member>
+        <member name="M:Swagger.Controllers.WeatherForecastController.Create(Swagger.WeatherForecast)">
+            <summary>
+            dsgvnsdgvsdngsldkngsdlkgnsdlkgnsdlgsnldkglnkdsglknsdglknsdgnksddondfngoedng[koed[nogad[onigear
+            </summary>
+            <param name="forecast">The weather forecast to create.</param>
+            <returns>The created weather forecast.</returns>
+        </member>
+    </members>
+</doc>
